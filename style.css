@@ -137,11 +137,11 @@ main{
         gap: 10px;
         margin-left: 200px;
     }
-    .daniel{grid-area: first; width: 52em; height: 230px; font-size: 10px; background-position: 250px top; line-height: 15px;}
+    .daniel{grid-area: first; width: 52em; height: 230px; font-size: 10px; background-position: 400px top; line-height: 15px;}
     .jonathan{grid-area: second; width: 15em; height: 226px; line-height: 15px; margin-bottom: 10px;}
     .jeanette{grid-area: third; width: 13em; height: 220px; margin-bottom: 50px; font-size: 15px; line-height: 16px;}
     .patrick{grid-area: fourth; width: 40em; height: 221px; margin-bottom: 50px; line-height: 15px;}
-    .kira{grid-area: fifth; width: 25em; height: 480px; font-size: 9px; line-height: 17px; margin-bottom: 50px; margin-left: 10px;}
+    .kira{grid-area: fifth; width: 25em; height: 480px; font-size: 9px; line-height: 17px; margin-bottom: 50px; margin-left: 10px; padding: 16px;}
     .story{
         font-size: 16px;
         
