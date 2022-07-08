@@ -14,7 +14,7 @@
 body{
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
-    background-color: var(--light-gray);
+    background-color: var(--light-grayish-blue);
 }
 img{
     border-radius: 50%;
@@ -42,7 +42,7 @@ main{
     background-position: 140px top;
     background-repeat: no-repeat;
     background-size: 80px;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 1.5em;
     width: 20em;
     
@@ -62,7 +62,7 @@ main{
 }
 .jonathan{
     background-color: var(--grayish-blue);
-    border-radius: 10px;
+    border-radius: 5px;
     width: 20em;
     padding: 20px;
     margin-top: 10px;
@@ -70,7 +70,7 @@ main{
 }
 .jeanette{
     background-color: var(--White);
-    border-radius: 10px;
+    border-radius: 5px;
     width: 20em;
     margin-top: 10px;
     padding: 20px;
@@ -94,7 +94,7 @@ main{
 }
 .patrick{
     background-color: var(--blackish-blue);
-    border-radius: 10px;
+    border-radius: 5px;
     width: 20em;
     margin-top: 10px;
     padding: 20px;
@@ -102,7 +102,7 @@ main{
 }
 .kira{
     background-color: var(--White);
-    border-radius: 10px;
+    border-radius: 5px;
     width: 20em;
     margin-top: 10px;
     padding: 20px;
@@ -135,12 +135,34 @@ main{
         margin: 80px;
         margin-top: 100px;
         gap: 10px;
-        margin-left: 300px;
+        margin-left: 200px;
     }
-    .daniel{grid-area: first; width: 40em; height: 230px; font-size: 10px; background-position: 250px top; line-height: 15px;}
+    .daniel{grid-area: first; width: 52em; height: 230px; font-size: 10px; background-position: 250px top; line-height: 15px;}
     .jonathan{grid-area: second; width: 15em; height: 226px; line-height: 15px; margin-bottom: 10px;}
-    .jeanette{grid-area: third; width: 15em; height: 220px; margin-bottom: 50px; font-size: 15px; line-height: 16px;}
-    .patrick{grid-area: fourth; width: 28em; height: 221px; margin-bottom: 50px; line-height: 15px;}
-    .kira{grid-area: fifth; height: 480px; font-size: 10px; line-height: 15px; margin-bottom: 50px; margin-left: 10px;}
-    
+    .jeanette{grid-area: third; width: 13em; height: 220px; margin-bottom: 50px; font-size: 15px; line-height: 16px;}
+    .patrick{grid-area: fourth; width: 40em; height: 221px; margin-bottom: 50px; line-height: 15px;}
+    .kira{grid-area: fifth; width: 25em; height: 480px; font-size: 9px; line-height: 17px; margin-bottom: 50px; margin-left: 10px;}
+    .story{
+        font-size: 16px;
+        
+    }
+    .review{
+        font-size: 11px;
+    }
+    .jean-story{
+        font-size: 17px;
+    }
+    .jean-name{
+        font-size: 13px;
+    }
+    .kira-name{
+        font-size: 13px;
+    }
+    .kira-story{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .kira-review{
+        font-size: 12px;
+    }
 }
